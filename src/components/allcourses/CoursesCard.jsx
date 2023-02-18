@@ -1,7 +1,7 @@
 import React from "react"
 import "./courses.css"
 import { coursesCard } from "../../dummydata"
-/*import { Link } from 'react-router-dom'*/
+import { Link } from 'react-router-dom'
 
 const CoursesCard = () => {
   return (
@@ -12,7 +12,7 @@ const CoursesCard = () => {
             <div className='items'>
               <div className='content flex'>
                 <div className='left'>
-                  <div className='img'>
+                  <div className='modImage'>
                     <img src={val.cover} alt='' />
                   </div>
                 </div>
@@ -23,7 +23,7 @@ const CoursesCard = () => {
                 </div>
               </div>
              
-              <button className='outline-btn'>ENROLL NOW !</button> 
+              <button className='outline-btn'><Link to={val.link}>ENROLL NOW !</Link></button> 
               
             </div>
           ))}

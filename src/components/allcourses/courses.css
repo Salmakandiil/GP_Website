@@ -1,17 +1,19 @@
 .coursesCard {
     padding: 50px 0px;
+    
   }
   .coursesCard .items {
     background-color: #fff;
     padding: 30px;
     text-align: center;
   }
-  .coursesCard .img {
+  .coursesCard .modImage {
     width: 80px;
     height: 80px;
     border-radius: 50%;
     background-color: #1eb2a6;
     padding: 15px;
+    
   }
   .coursesCard img {
     width: 100%;
@@ -27,6 +29,11 @@
     font-size: 30px;
     font-weight: 500;
     line-height: 45px;
+  }
+  .coursesCard button{
+ 
+      background-color:rgb(238 238 238 / 90%);
+    
   }
   
   

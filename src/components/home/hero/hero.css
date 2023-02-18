@@ -20,10 +20,15 @@
     padding: 0;
   }
   
+  .hero img{
+   
+      position: absolute;
+      right: 200px;
+      top: 150px;
+      width: 600px;
+      height: 550px;
+      
+  }
+
   
 
-img {
-  max-width: 100%;
- 
- 
-}

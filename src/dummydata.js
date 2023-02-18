@@ -3,19 +3,19 @@ export const coursesCard = [
       id: 1,
       cover: "../images/courses/sql-injection.png",
       coursesName: "SQL Injection Attack",
-      
+      link:"/SQL",
     },
     {
       id: 2,
       cover: "",
       coursesName: "Module 2",
-      
+      link:"/module2",
     },
     {
       id: 3,
       cover: "",
       coursesName: "Module 3",
-      
+      link:"/module3",
     },
     {
       id: 4,
