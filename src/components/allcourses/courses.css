@@ -36,4 +36,9 @@
     
   }
   
-  
+  .coursesCard button:hover {
+    box-shadow: none;
+    cursor: pointer;
+    background-color: #1eb2a6;
+    color: #fff;
+  }
