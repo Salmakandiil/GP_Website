@@ -25,7 +25,7 @@ const Hero = () => {
              
             </div>
             <div class="image">
-        <img src="/GDPR-pana.png" alt=''/>
+            
       </div>
           </div>
         </div>
