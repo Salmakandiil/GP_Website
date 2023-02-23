@@ -20,7 +20,13 @@ const Header = () => {
                
             </ul>
             <div className='start'>
-               <div className='button'>Profile</div>
+              
+               <div className='button'> 
+               <img className='profile-icon' src="./images/icons/icon-user.png" alt='' /> 
+               <Link to="/profile"><label className='profile-label' >Profile</label></Link>
+              
+               </div>
+
             </div>
         </nav>
      </header>

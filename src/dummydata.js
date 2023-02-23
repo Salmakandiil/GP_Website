@@ -1,7 +1,7 @@
 export const coursesCard = [
     {
       id: 1,
-      cover: "../images/courses/sql-injection.png",
+      cover: "../images/courses/sql-injection2.png",
       coursesName: "SQL Injection Attack",
       link:"/SQL",
     },

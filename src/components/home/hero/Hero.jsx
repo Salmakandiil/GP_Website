@@ -29,7 +29,7 @@ const Hero = () => {
            
           </div>
           <div className='homeimg'>
-          <img src="/GDPR-pana.png" alt=''/>
+          <img src="./images/home-img.png" alt=''/>
           </div>
          
         </div>
