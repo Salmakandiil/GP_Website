@@ -21,7 +21,7 @@ const Lab = () => {
         Download it & Enjoy Learning..
       </p>
       <button className='primary-btn' onClick={(e) => {  e.preventDefault();
-       window.location.href='https://www.docker.com/products/docker-desktop/';  }}>  Download  <i className='fa fa-light fa-download'></i>
+       window.location.href='https://www.google.com.eg/?hl=ar';  }}>  Download  <i className='fa fa-light fa-download'></i>
              
       </button>
       <p className='alert'>

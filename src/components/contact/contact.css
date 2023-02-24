@@ -1,0 +1,72 @@
+.left-img{
+    position: absolute;
+    right: 800px;
+    top: 650px;
+    width: 650px;
+    height: 650px;
+
+
+}
+
+.right-row {
+    padding: 50px;
+    position: absolute;
+    right: 70px;
+    top: 600px;
+    width: 700px;
+    height: 840px;
+   
+    
+
+  }
+
+  .contacts form{
+    height: 500px;
+    background-color: rgb(226 219 212 / 40%);
+    border: none;
+    padding-top: 2%;
+    padding: 0rem;
+
+   
+  }
+  
+  .contacts h1 {
+    font-size: 30px;
+    font-weight: 580;
+    color: #1eb2a6;
+  }
+
+  .contacts h4 {
+    font-size: 18px;
+    font-weight: 580;
+    color: #1eb2a6;
+  }
+
+  
+  .items {
+    margin: 30px 0;
+    
+  }
+  .contacts .box p {
+    font-size: 18px;
+    margin-top: 10px;
+  }
+  .contacts textarea,
+  .contacts input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    outline: none;
+    border-radius: 2px;
+    border: 1px solid #1eb2a6;
+  }
+  form .flexSB input:nth-child(1) {
+    margin-right: 10px;
+  }
+  
+ .contacts .primary-btn{
+
+    position: absolute;
+    right: 310px;
+    top: 570px;
+ }

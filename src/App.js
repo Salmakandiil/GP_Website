@@ -6,6 +6,7 @@ import Register from './components/Registeration/Register'
 import CourseHome from "./components/allcourses/CourseHome"
 import sql from "./components/modules/SQL/sql"
 import Lab_guide from "./components/common/Labs/Lab_guide"
+import Contact from "./components/contact/Contact"
 
 function App() {
   
@@ -20,7 +21,7 @@ function App() {
           <Route path='/modules' exact component={CourseHome} />
           <Route path='/SQL' exact component={sql} />
           <Route path='/lab-guide' exact component={Lab_guide} />
-
+          <Route path='/contact' exact component={Contact} />
         </Switch>
 
       </Router>
