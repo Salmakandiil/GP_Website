@@ -4,6 +4,7 @@ export const coursesCard = [
       cover: "../images/courses/sql-injection2.png",
       coursesName: "SQL Injection Attack",
       link:"/SQL",
+      lab_link:"https://www.google.com/?hl=ar",
     },
     {
       id: 2,

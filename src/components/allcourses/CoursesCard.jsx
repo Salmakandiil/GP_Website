@@ -25,6 +25,7 @@ const CoursesCard = () => {
              
               <button className='outline-btn'><Link to={val.link}>ENROLL NOW !</Link></button> 
               
+              
             </div>
           ))}
         </div>

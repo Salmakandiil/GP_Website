@@ -6,12 +6,74 @@
     color: #EDF7F5;
     text-transform: capitalize;
     position: relative;
-    right: 1200px;
-    top: 35px;
+    right: 1180px;
+    top: 40px;
     
 
 }
 .lab .flexSB{
 
     padding-top: 5%
+
+}
+
+.template{
+    padding: 40px 0px;
+    background-color: rgba(255, 255, 255, 0.3);
+    margin-block: 2%;
+    
+}
+
+.upload{
+    padding: 20px 0px;
+}
+.alert{
+    padding: 20px 0px;
+    font-weight: 600;
+    font-size: 20px;
+
+}
+.submit-btn{
+    width: 120px;
+    height: 30px;
+    font-weight: 600;
+    font-size: 15px;
+    border-radius: 3px;
+    margin: 1%;
+    background-color: #1eb2a6;
+    color: #fff;
+}
+.submit-btn:hover {
+    box-shadow: none;
+    cursor: pointer;
+    background-color: rgba(255, 255, 255, 0.3);
+    color: #1eb2a6;
+  }
+.template input{
+
+    width: 30rem;
+}
+.guide-label{
+    color: #1eb2a6;
+    cursor: pointer;
+    font-weight: 600;
+    font-size: 20px;
+
+}
+.guide-label:hover{
+    color: #fff;
+}
+
+.lab p{
+    font-size: 20px;
+    padding-left: 3%;
+}
+
+.lab-icon{
+    width: 120px;
+    height: 120px;
+}
+
+.lab .primary-btn{
+    margin-left: 4%;
 }

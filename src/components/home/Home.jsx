@@ -1,13 +1,15 @@
 import React from 'react'
-import './hero.css'
-import Title from '../../common/title/Title'
+import './home.css'
+import Header from '../common/heading/Header'
+import Title from '../common/title/Title'
+import { Link } from 'react-router-dom'
 
 
 const Hero = () => {
   return (
     
     <>
-    
+    <Header/>
       <section className='hero'>
       
         <div className='container'>
@@ -22,7 +24,8 @@ const Hero = () => {
              
               </button>
               <button>
-                Labs Guide <i className='fa fa-long-arrow-alt-right'></i>
+                <Link to="/lab-guide">Labs Guide <i className='fa fa-long-arrow-alt-right'></i></Link>
+                
               </button>
              
             </div>
@@ -41,3 +44,4 @@ const Hero = () => {
 }
 
 export default Hero
+
